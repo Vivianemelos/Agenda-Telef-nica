@@ -1,7 +1,7 @@
 from agenda import Agenda
 
 def main():
-    lista = Agenda(nome=None, sobrenome=None, telefone=None, data_de_nascimento=None, email=None)
+    lista = Agenda()
     while True:
         print("Escolha uma opção:")
         print("1. Adicionar contato")
